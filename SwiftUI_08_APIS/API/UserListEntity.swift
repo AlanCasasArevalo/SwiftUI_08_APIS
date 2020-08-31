@@ -12,8 +12,7 @@ struct UsersListEntity: Codable {
 // MARK: - Datum
 struct UserEntity: Codable {
     let id: Int?
-    let email, firstName, lastName: String?
-    let avatar: String?
+    let email, firstName, avatar, lastName: String?
 
     enum CodingKeys: String, CodingKey {
         case id, email

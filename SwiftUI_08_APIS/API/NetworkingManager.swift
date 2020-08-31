@@ -23,7 +23,9 @@ class NetworkingManager: ObservableObject {
                 do {
                     guard let dataDes = data else { return }
                     let result = try JSONDecoder().decode(UsersListEntity.self, from: dataDes)
-                    self.usersList = result
+                    DispatchQueue.main.async {
+                        self.usersList = result
+                    }
                 } catch let error as NSError {
                     print(error.localizedDescription)
                 }

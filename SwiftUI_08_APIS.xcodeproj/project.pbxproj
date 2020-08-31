@@ -16,6 +16,8 @@
 		51FE7B2A24FD32C0001F4740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FE7B2824FD32C0001F4740 /* LaunchScreen.storyboard */; };
 		51FE7B3324FD37BD001F4740 /* UserListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE7B3224FD37BD001F4740 /* UserListEntity.swift */; };
 		51FE7B3524FD38A0001F4740 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE7B3424FD38A0001F4740 /* NetworkingManager.swift */; };
+		51FE7B3724FD4ADF001F4740 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE7B3624FD4ADF001F4740 /* ImageLoader.swift */; };
+		51FE7B3A24FD4C1B001F4740 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE7B3924FD4C1B001F4740 /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		51FE7B2B24FD32C0001F4740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51FE7B3224FD37BD001F4740 /* UserListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListEntity.swift; sourceTree = "<group>"; };
 		51FE7B3424FD38A0001F4740 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		51FE7B3624FD4ADF001F4740 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		51FE7B3924FD4C1B001F4740 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		51FE7B1924FD32BE001F4740 /* SwiftUI_08_APIS */ = {
 			isa = PBXGroup;
 			children = (
+				51FE7B3824FD4C06001F4740 /* CustomViews */,
 				51FE7B3124FD37A7001F4740 /* API */,
 				51FE7B1A24FD32BE001F4740 /* AppDelegate.swift */,
 				51FE7B1C24FD32BE001F4740 /* SceneDelegate.swift */,
@@ -88,8 +93,17 @@
 			children = (
 				51FE7B3224FD37BD001F4740 /* UserListEntity.swift */,
 				51FE7B3424FD38A0001F4740 /* NetworkingManager.swift */,
+				51FE7B3624FD4ADF001F4740 /* ImageLoader.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		51FE7B3824FD4C06001F4740 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				51FE7B3924FD4C1B001F4740 /* CustomImageView.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FE7B3724FD4ADF001F4740 /* ImageLoader.swift in Sources */,
+				51FE7B3A24FD4C1B001F4740 /* CustomImageView.swift in Sources */,
 				51FE7B1B24FD32BE001F4740 /* AppDelegate.swift in Sources */,
 				51FE7B2024FD32BE001F4740 /* SwiftUI_08_APIS.xcdatamodeld in Sources */,
 				51FE7B2224FD32BE001F4740 /* ContentView.swift in Sources */,
