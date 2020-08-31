@@ -14,6 +14,8 @@
 		51FE7B2424FD32C0001F4740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FE7B2324FD32C0001F4740 /* Assets.xcassets */; };
 		51FE7B2724FD32C0001F4740 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FE7B2624FD32C0001F4740 /* Preview Assets.xcassets */; };
 		51FE7B2A24FD32C0001F4740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FE7B2824FD32C0001F4740 /* LaunchScreen.storyboard */; };
+		51FE7B3324FD37BD001F4740 /* UserListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE7B3224FD37BD001F4740 /* UserListEntity.swift */; };
+		51FE7B3524FD38A0001F4740 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE7B3424FD38A0001F4740 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		51FE7B2624FD32C0001F4740 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51FE7B2924FD32C0001F4740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51FE7B2B24FD32C0001F4740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FE7B3224FD37BD001F4740 /* UserListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListEntity.swift; sourceTree = "<group>"; };
+		51FE7B3424FD38A0001F4740 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		51FE7B1924FD32BE001F4740 /* SwiftUI_08_APIS */ = {
 			isa = PBXGroup;
 			children = (
+				51FE7B3124FD37A7001F4740 /* API */,
 				51FE7B1A24FD32BE001F4740 /* AppDelegate.swift */,
 				51FE7B1C24FD32BE001F4740 /* SceneDelegate.swift */,
 				51FE7B2124FD32BE001F4740 /* ContentView.swift */,
@@ -76,6 +81,15 @@
 				51FE7B2624FD32C0001F4740 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51FE7B3124FD37A7001F4740 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				51FE7B3224FD37BD001F4740 /* UserListEntity.swift */,
+				51FE7B3424FD38A0001F4740 /* NetworkingManager.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +166,9 @@
 				51FE7B1B24FD32BE001F4740 /* AppDelegate.swift in Sources */,
 				51FE7B2024FD32BE001F4740 /* SwiftUI_08_APIS.xcdatamodeld in Sources */,
 				51FE7B2224FD32BE001F4740 /* ContentView.swift in Sources */,
+				51FE7B3524FD38A0001F4740 /* NetworkingManager.swift in Sources */,
 				51FE7B1D24FD32BE001F4740 /* SceneDelegate.swift in Sources */,
+				51FE7B3324FD37BD001F4740 /* UserListEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

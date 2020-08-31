@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  SwiftUI_08_APIS
-//
-//  Created by Everis on 31/08/2020.
-//  Copyright © 2020 Alan. All rights reserved.
-//
 
 import UIKit
 import CoreData
